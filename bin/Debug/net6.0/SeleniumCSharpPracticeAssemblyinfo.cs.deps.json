@@ -9,6 +9,7 @@
       "SeleniumCSharpPracticeAssemblyinfo.cs/1.0.0": {
         "dependencies": {
           "ExtentReports": "4.1.0",
+          "MSTest.TestFramework": "2.2.10",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
@@ -17,7 +18,8 @@
           "Selenium.Support": "4.0.0",
           "Selenium.WebDriver": "4.0.0",
           "Selenium.WebDriver.ChromeDriver": "103.0.5060.5300",
-          "coverlet.collector": "3.1.2"
+          "coverlet.collector": "3.1.2",
+          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
           "SeleniumCSharpPracticeAssemblyinfo.cs.dll": {}
@@ -1167,6 +1169,14 @@
           }
         }
       },
+      "MSTest.TestFramework/2.2.10": {
+        "runtime": {
+          "lib/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.7126.11"
+          }
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2"
@@ -2128,6 +2138,14 @@
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath": "4.3.0"
         }
+      },
+      "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.7126.11"
+          }
+        }
       }
     }
   },
@@ -2647,6 +2665,13 @@
       "sha512": "sha512-zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA==",
       "path": "mongodb.libmongocrypt/1.0.0",
       "hashPath": "mongodb.libmongocrypt.1.0.0.nupkg.sha512"
+    },
+    "MSTest.TestFramework/2.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JZRVXKq19uRhkj8MuzsU8zJhPV2JV3ZToFPAIg+BU53L1L9mNDfm9jXerdRfbrE4HBcf2M54Ij80zPOdlha3+Q==",
+      "path": "mstest.testframework/2.2.10",
+      "hashPath": "mstest.testframework.2.2.10.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -3452,6 +3477,11 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
